@@ -1,1 +1,0 @@
-![Proje Planı](projeplan.png)
