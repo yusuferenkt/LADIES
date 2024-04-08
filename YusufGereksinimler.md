@@ -15,3 +15,5 @@
 7.Ürünü Favorilerden Çıkarma (Favorilere eklenen ürünün çıkarılması.)
 
 8.Ürün Ödemesi (Siparişin ödenmesi.)
+
+9.Kayıt Ol (Müşterinin siteye kişisel bilgileriyle üye olması.)
