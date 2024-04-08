@@ -34,6 +34,8 @@ Gereksinim Dağılımları
 
 16.İletişim ve Şikayet Formu
 
+17.Kayıt Ol
+
 1.[Yusuf'un Gereksinimleri](YusufGereksinimler.md)
 
 2.[Melis'in Gereksinimleri](MelisGereksinimler.md)
