@@ -18,7 +18,7 @@ Proje Ekibi: Melis Tunç, Yusuf Eren Karabulut
 
 2. [Gereksinim Analizi](GereksinimAnalizi.md)
 
-3. Durum Diyagramı
+3. [Durum Diyagramı](DurumDiyagramı.md)
 
 4. [Durum Senaryoları](DurumSenaryoları.md)
 
