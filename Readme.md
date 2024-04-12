@@ -22,7 +22,7 @@ Proje Ekibi: Melis Tunç, Yusuf Eren Karabulut
 
 4. [Durum Senaryoları](DurumSenaryoları.md)
 
-5. Veritabanı Diyagramı
+5. [Veritabanı Diyagramı](VeritabanıDiyagramı.md)
 
 6. Front-End
 
