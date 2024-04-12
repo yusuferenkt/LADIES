@@ -1,0 +1,1 @@
+[Durum Senaryom](Yusuf'un%20Durum%20Senaryoları.pdf)

@@ -1,0 +1,1 @@
+[Yusuf'un Durum Senaryosu](YusufDurumSenaryosu.md)
