@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LADIES- Geçmiş Siparişlerim</title>
+  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./assets/toastr/toastr.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <a class="ana-sayfa" href="index.html">
+    <h2 class="title">LADIES</h2>
+</a>
+    <ul class="menu__icons">
+      <li><i class="bi bi-search"></i></li>
+      <a href="ks2.html">
+      <li><i class="bi bi-person"></i></li>
+    </a>
+    <a href="gecmisSiparisler.html">
+        <li><i class="bi bi-box2-heart"></i></li></a>
+      <a href="iletisimsikayetform.html"><li><i class="bi bi-telephone"></i></i></li></a>
+      <li class="basket__icon" onclick="toggleModal();">
+        <a class="sepet" href="index.html"></href><i class="bi bi-bag"></i></a>
+        <span class="basket__count"></span>
+      </li>
+    </ul>
+  </nav>
+  <div>
+    <div class="gecmis">
+        <h1>Geçmiş Siparişlerim</h1>
+        <div id="orderHistory"></div>
+      </div>
+  </div>
+  
+  <script src="./assets/jquery/jquery.min.js"></script>
+  <script src="./assets/toastr/toastr.min.js"></script>
+  <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="gecms.js"></script>
+</body>
+
+</html>
