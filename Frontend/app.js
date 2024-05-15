@@ -1,58 +1,58 @@
+// her klavye girişi olduğunda
+// girilen değeri al (büyük harfe çevir)
+// listeyi döngüye sok
+// listenin değerini, girilen karakterlerle karşılaştır
+// eğer eşleşme var ise listenin görünümü açık kalsın
+// eşleşme yoksa listeyi sakla
 
-let urunList = [];
-const toggleModal =() => {
-    const basketModalEl = document.querySelector(".basket__modal");
-    basketModalEl.classList.toggle("active");
-};
+function searchMenu() {
+  const searchInput = document.querySelector("input");
 
-const getUruns = () => {
-    fetch("./products.json").then((res) => res.json()).then((uruns) => (urunList = uruns));
-};
-getUruns();
+  searchInput.addEventListener("keyup", function () {
+    let data = this.value.toUpperCase();
+    let li = document.querySelectorAll("section div");
 
-const createUrunStars = (starRate) =>{
-    let starRateHtml = "";
-    for(let i=1; i<=5;i++){
-        if(Math.raund(starRate) >= i) starRateHtml+=`<i class="bi bi-star-fill active"></i> `;
-        else starRateHtml += `<i class="bi bi-star-fill active"></i> `;
+    for (let i = 0; i < li.length; i++) {
+      console.log(li[i].innerHTML);
+      if (li[i].innerHTML.toUpperCase().indexOf(data) > -1) {
+        li[i].style.display = "";
+      } else {
+        li[i].style.display = "none";
+      }
     }
-    return starRateHtml;
-};
+  });
+}
 
-const createUrunItemsHtml = () => {
-    const bookListEl = document.querySelector(".urun__list");
-    let urunListHtml = "";
-    urunList.forEach(urun, index => {
-        urunListHtml += ` <div class="col-5 ${index % 2 == 0 && "offset-2"}">
-        <div class="row urun__cart">
-          <div class="col-6">
-            <img class="img-fluid shadow" src="${urun.imgSource}"
-              width="258" height="400" />
-          </div>
-          <div class="col-6 d-flex flex-column justify-content-between">
-            <div class="urun__detail">
-              <span class="fos gray fs-5">${urun.author}</span><br />
-              <span class="fs-4 fw-bold">${urun.name}</span><br />
-              <span class="urun__star-rate">
-                ${createUrunStars(book.starRate)}
-                <span class="gray">${urun.reviewCount}</span>
-              </span>
-            </div>
-            <p class="urun__description fos gray">
-            ${urun.description}
-            </p>
-            <div>
-              <span class="black fw-bold fs-4 me-2">${urun.price}$</span>
-              ${urun.oldPrice ? `<span class="fs-4 fw-bold old__price">${urun.oldprice}$</span>` :""}
-            </div>
-            <br />
-            <button class="btn__purple">SEPETE EKLE</button><br> <br>
-          </div>
-        </div>
-      </div> `;
-    });
-    bookListEl.innerHTML = bookListHtml;
-};
-setTimeout(() => {
-    createUrunItemsHtml();
-}, 100);
+searchMenu();
+
+function toggleFavorite(button) {
+  var product = button.parentElement;
+  var productName = product.querySelector("span").textContent;
+
+  button.classList.toggle("active");
+  if (button.classList.contains("active")) {
+    button.textContent = "Favoriden Çıkar";
+    addToFavorites(productName);
+  } else {
+    button.textContent = "Favorilere Ekle";
+    removeFromFavorites(productName);
+  }
+}
+
+function addToFavorites(productName) {
+  var favoritesList = document.getElementById("favorites-list");
+  var listItem = document.createElement("li");
+  listItem.textContent = productName;
+  favoritesList.appendChild(listItem);
+}
+
+function removeFromFavorites(productName) {
+  var favoritesList = document.getElementById("favorites-list");
+  var items = favoritesList.getElementsByTagName("li");
+  for (var i = 0; i < items.length; i++) {
+    if (items[i].textContent === productName) {
+      favoritesList.removeChild(items[i]);
+      break;
+    }
+  }
+}

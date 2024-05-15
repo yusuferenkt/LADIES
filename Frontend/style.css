@@ -10,13 +10,32 @@
   --black: #1c2a39;
   --gray: #5c6a79;
   --purple: #4c3db2;
-  --transition: all 250ms ease-in-out;
 }
 
 .navbar {
   height: 120px;
   width: 80%;
   margin-left: 10%;
+}
+
+.title-a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.title-a:hover {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.person-link {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.person-link:hover {
+  text-decoration: none;
+  color: var(--black);
 }
 
 .title {
@@ -76,9 +95,6 @@
 .urun__card {
   height: 400px;
 }
-.urun__card img{
-  height: 400px;
-}
 
 .fos {
   font-family: "Open Sans", sans-serif;
@@ -127,145 +143,103 @@
   font-size: 1rem;
   font-weight: bold;
   background-color: transparent;
-  transition: var(--transition);
-  padding: 5px 0;
+  transition: all 250ms ease-in-out;
 }
 
 .btn__purple:hover {
   background-color: var(--purple);
   color: white;
 }
-.filter__background{
-  position: absolute;
-  left: 0;
-  width: 270px;
-  height: 600px;
-  background-color:#FEECE2;
-  z-index: -1;
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.filter{
+body {
   position: absolute;
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  min-height: 200px;
+  top: 20px;
+  left: 20px;
+  transform: translate(-25, -25);
   justify-content: center;
-  left: 40px;
-  top: 465px;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
 }
-.filter li{
-  color: var(--gray);
-  font-size: 1rem; 
 
-  margin-bottom: 2rem;
-  cursor: pointer;
+.search-main {
+  background-color: #f2f2f2;
+  width: 50%;
+  max-width: 600px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 40px;
 }
-.filter li:hover{
-  color: #9B4444;
-}
-.filter li.active{
-  color: #9B4444;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-.filter li.active::before{
-  content: "";
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: #9B4444;
-  position: absolute;
-  left:10px ;
-  margin-top: 15px;
-}
-.basket__modal{
-  position: fixed;
-  opacity: 0;
-  left: 0;
-  top: 0;
-  background-color:#1c2a3950 ;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  transition: var(--transition);
-}
-.basket__modal.active{
-  opacity: 1;
-  z-index: 999;
-}
-.basket__items{
-  width: 0x;
-  background-color:white;
-  height: 100%;
-  float: right; 
-  transition: var(--transition);
-}
-.basket__modal.active .basket__items{
-  width: 450px;
-}
-.basket__items.b-x{
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: var(--black);
-  cursor: pointer;
-}
-.basket__title{
-  color: #1c2a39;
-  margin-top: 5rem;
-  text-align: center;
-  font-weight: bold;
-}
-.basket__list{
-  list-style-type: none;
-  padding: 0 5px;
-  margin-top: 1rem;
-  max-height: 650px;
-  overflow-y: auto;
-}
-.basket__list li{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  margin-bottom: 5rem;
-}
-.basket__item-info{
-  width: 250px;
-}
-.basket__item-info.book__name{
+
+.tbox-search {
+  width: 95%;
+  float: left;
+  background: none;
+  border: none;
+  outline: none;
+  color: #000;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 400;
+  line-height: 17px;
 }
-.basket__item-info .book__price{
+
+.tbox-search:hover {
+  backdrop-filter: blur(50px);
+}
+
+.btn-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
   font-size: 16px;
-  font-weight: bold;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
 }
-.basket__item-info .book__remove{
+
+.favbutton {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.favorite-btn {
   cursor: pointer;
-  color: var(--gray);
-}
-.basket__item .book__count{
+  border: 2px solid var(--purple);
+  color: var(--purple);
   font-size: 1rem;
   font-weight: bold;
-  color: var(--black);
-
+  background-color: transparent;
+  transition: all 250ms ease-in-out;
 }
 
-.book__count .increase, .decrease{
-  cursor: pointer;
- color: color(midnightblue);
-}
-.basket__total{
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  bottom: 5%;
-  align-items: center;
-  width: inherit;
-}
-.basket__total button{
-  width: 250px;
+.favorite-btn.active {
+  background-color: #e74c3c;
 }
 
+.favbutton {
+  width: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+}
+
+.favorites-list:active {
+  background: darkolivegreen;
+}
+
+.giris-yap {
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+}
