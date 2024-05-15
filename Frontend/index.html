@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>LADIES ≡ Kozmetik Markaları ve Kozmetik Ürünleri</title>
   <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
-  
+  <link rel="stylesheet" href="./assets/toastr/toastr.min.css">
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -15,12 +15,16 @@
     <h2 class="title">LADIES</h2>
     <ul class="menu__icons">
       <li><i class="bi bi-search"></i></li>
+      <a href="ks2.html">
       <li><i class="bi bi-person"></i></li>
-      <li><i class="bi bi-box2-heart"></i></li>
-      <li><i class="bi bi-telephone"></i></i></li>
+    </a>
+    <a href="gecmisSiparisler.html">
+      <li><i class="bi bi-box2-heart"></i></li></a>
+      <a href="iletisimsikayetform.html"><li><i class="bi bi-telephone"></i></i></li></a>
       <li class="basket__icon" onclick="toggleModal();">
-        <i class="bi bi-bag"></i>
-        <span class="basket__count">2</span>
+        
+        <a class="sepet" href="index.html"></href><i class="bi bi-bag"></i></a>
+        <span class="basket__count"></span>
       </li>
     </ul>
   </nav>
@@ -49,8 +53,8 @@
   </section>
   <section class="store my-5">
     <div class="filter__background"></div>
-    <ul class="filter">
-      <li class="active">Tümü</li>
+    <ul class="filter">     
+       <li class="active">Tümü</li> 
       <li>Makyaj</li>
       <li>Parfüm</li>
       <li>Cilt Bakımı</li>
@@ -220,39 +224,16 @@
       <h2 class="basket__title">Sepetteki Ürünler</h2>
       <ul class="basket__list">
         <li class="basket__item">
-          <img src="assets/images/ürünler/benefit-kas-sabitleyici.jpg" alt="" width="100px" height="100px">
-          <div class="basket__item-info">
-            <h3 class="book__name">Benefit Kaş Sabitleyici</h3>
-            <span class="urun__price">60$</span><br>
-            <span class="urun__remove">remove</span>
-          </div>
-          <div class="urun__count">
-            <span class="decrease">-</span>
-            <span class="my-4">2</span>
-            <span class="increase">+</span>
-          </div>
-        </li>
-        <li class="basket__item">
-          <img src="assets/images/ürünler/fenty-fondoten.jpg" alt="" width="100px" height="100px">
-          <div class="basket__item-info">
-            <h3 class="urun__name">Fenty Fondoten</h3>
-            <span class="urun__price">60$</span><br>
-            <span class="urun__remove">remove</span>
-          </div>
-          <div class="urun__count">
-            <span class="decrease">-</span>
-            <span class="my-4">2</span>
-            <span class="increase">+</span>
-          </div>
         </li>
       </ul>
       <div class="basket__total">
-        <span class="fw-bold mb-3 ">Toplam Miktar: 400$</span>
+        <span class="fw-bold mb-3 total__price"></span>
         <button class="btn__purple">Ödemeyi Tamamla</button>
       </div>
     </div>
   </div>
-
+  <script src="./assets/jquery/jquery.min.js"></script>
+  <script src="./assets/toastr/toastr.min.js"></script>
   <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="app.js"></script>
 </body>
