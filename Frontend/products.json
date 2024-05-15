@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name": "24-HR Brow Setter - Kaş Sabitleyici",
+    "author": "BENEFIT COSMETICS",
+    "price": 60,
+    "description": " 24h Brow Setter kaşlarınız için sabitleyici şeffaf jel sayesinde mükemmel kaşlara sahip olacaksınız. ,Dağılmayan esnek formül ve olağanüstü fırçası sayesinde kolay uygulama…,Jeli fırçanın uzun kıllı ucunu kullanarak uygulayın. ,Tek başına veya diğer sabitleştirici ürünlerle birlikte kullanılabilir.",
+    "starRate": 5,
+    "reviewCount": 1938,
+    "stock": 8,
+    "imgSource":"./assets/images/ürünler/benefit-kas-sabitleyici.jpg",
+    "type": "MAKYAJ"
+  },
+  {
+    "id": 2,
+    "name": "Libre - Eau De Parfum",
+    "author": "YVES SAINT LAURENT",
+    "price": 40,
+    "description": "Her iki ucunda da hayatı yakan bir kadın için çiçeksi, şevhetli ve cüretkar bir lavanta. Özgürlük çığlığı gibi bir kooku. Her şeyi çılgınca yaşamanın özgürlüğü.",
+    "starRate": 4.7,
+    "reviewCount": 330,
+    "stock": 7,
+    "imgSource": "./assets/images/ürünler/yvs-parfum.jpg",
+    "type": "PARFUM"
+  },
+  {
+    "id": 3,
+    "name": "Bom Dia Body Scrub - Vücut Peelingi",
+    "author": "SOL DE JANERIO",
+    "price": 80,
+    "description": "Pürüzsüz, ışıltılı görünen bir cilt için netliği, tonu ve dokuyu gözle görülür şekilde iyileştirmek üzere yüzde 10 AHA BHA Yenileme Kompleksi ile aşılanmış Bom Dia Vücut Ovucu.",
+    "starRate": 4.2,
+    "reviewCount": 130,
+    "stock": 3,
+    "imgSource": "./assets/images/ürünler/vucutpeeling.jpg",
+    "type": "VUCUTVEBANYO"
+  },
+  {
+    "id": 4,
+    "name": "Match Stix Matte Skinstick - Çok Kullanımlı Stick Fondöten",
+    "author": "FENTY BEAUTY",
+    "price": 30,
+    "description": "Çok sayıda cilt tonunu geliştirmek için test edilen bu ultra mükemmel renk paleti ile nerede olursanız olun makyajınızı yapın. Kullanımı kolay çubuk formatı, yanak, burun veya çene çizgisi üzerine hassas uygulama için idealdir.",
+    "starRate": 4.2,
+    "reviewCount": 560,
+    "stock": 6,
+    "imgSource": "./assets/images/ürünler/fenty-fondoten.jpg",
+    "type": "MAKYAJ"
+  },
+  {
+    "id": 5,
+    "name": "J'adore L'Or - Essence de Parfum",
+    "author": " DIOR",
+    "price": 100,
+    "description": "Çiçeklerin güzelliğini, nüansları ve renkleri ile oynayarak zenginleştirdiği parfümdür. Portakal çiçeği mutlak, yasemin grandiflorum ve centifolia gülü notaları dolgunluk ve şevhetle ortaya çıkıyor: bunlar J'adore'un gerçek altınıdır.",
+    "starRate": 3.7,
+    "reviewCount": 410,
+    "stock": 4,
+    "imgSource": "./assets/images/ürünler/jadore.jpeg",
+    "type": "PARFUM"
+  },
+  {
+    "id": 6,
+    "name": "Rénergie H.C.F Triple Göz Serumu - Anti-Aging Serum",
+    "author": "LANCÔME ",
+    "price": 56,
+    "description": "Estetik prosedürler geçiren kadınlar tarafından önerilen, H.C.F.Triple Göz Serumu anında gözleri gençleştirir..",
+    "starRate": 4.3,
+    "reviewCount": 145,
+    "stock": 3,
+    "imgSource": "./assets/images/ürünler/lancome.jpg",
+    "type": "CILTBAKIMI"
+  },
+  {
+    "id": 7,
+    "name": "GinZing - Ultra Nemlendirici Enerji Verici Krem",
+    "author": "ORIGINS ",
+    "price": 88,
+    "description": " Yeterince uyuyamadınız mı? Cildinize enerjisini geri verin! Enerji veren yoğun nemlendirici krem. Cildin enerjik görünmesine desrek olan yoğun nemlendirici krem, donuk-yorgun görünen cildi canlandırarak 72 saat boyunca nemini korumasına yardımcı olur.",
+    "starRate": 4.3,
+    "reviewCount": 173,
+    "stock": 7,
+    "imgSource": "./assets/images/ürünler/origins.jpg",
+    "type": "CILTBAKIMI"
+  },
+
+  {
+    "id": 8,
+    "name": "J’adore Les Adorables - Body Milk",
+    "author": "DIOR",
+    "price": 83,
+    "description": "J'adore Les Adorables, gelişmiş bir güzellik rutini için J'adore ruhuyla aşılanmış bir günlük cilt bakım ürünleri serisidir.",
+    "starRate": 4.3,
+    "reviewCount": 189,
+    "stock": 9,
+    "imgSource": "./assets/images/ürünler/bodymilk.jpg",
+    "type": "VUCUTVEBANYO"
+  },
+  {
+    "id": 9,
+    "name": "N° 7 Bonding Oil",
+    "author": "OLAPLEX",
+    "price": 27,
+    "description": "Isıya karşı koruyan ve elektriklenmeyi ortadan kaldıran ultra konsantre, ultra hafif ve türünün tek örneği olan onarıcı saç yağı.Olaplex Binding Oil No. 7 tüm saç tiplerini onarır, güçlendirir ve nemlendirir. Renklerin parlaklığını, pürüzsüzlüğünü ve canlılığını önemli ölçüde artırırken dalgalanmaları en aza indirir ve 450 ° F / 230 ° C'ye kadar ısı koruması sağlar.Tüm saç tipleri ve türleri için uygundur.Nasıl kullanılır?- Uygulamak için kapağı çıkarın. Şişeyi ters çevirin ve ölçülü bir damlayı dağıtmak için şişenin altındaki işaret parmağına hafifçe vurun.-Nemli veya kuru saça az miktarda uygulayın, ardından şekillendirin.",
+    "starRate": 4.3,
+    "reviewCount": 78,
+    "stock": 8,
+    "imgSource": "./assets/images/ürünler/olaplex.jpg",
+    "type": "SAC"
+  },
+  {
+    "id": 10,
+    "name": "Resistance Therapist - Çok Yıpranmış Saçlar İçin Yoğun Onarıcı Bakım Maskesi",
+    "author": "KÉRASTASE",
+    "price": 77,
+    "description": " Thérapiste Saç Maskesi çok yıpranmış ve aşırı işlem görmüş saçlar için yoğun saç bakımı maskesidir. Saç telinin özünü derinlemesine onararak gücünü ve elastikiyetini geri kazandırma etkisine sahiptir. Saçlar canlanır ve güzelleşir",
+    "starRate": 4.5,
+    "reviewCount": 250,
+    "stock": 1,
+    "imgSource": "./assets/images/ürünler/keraste.jpg",
+    "type": "SAC"
+  }
+]
