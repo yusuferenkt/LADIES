@@ -24,11 +24,11 @@ Proje Ekibi: Melis Tunç, Yusuf Eren Karabulut
 
 5. [Veritabanı Diyagramı](VeritabanıDiyagramı.md)
 
-6. Front-End
+6. [Front-End](Frontend.md)
 
-7. Back-End
+7. [Back-End](Backend.md)
 
 8. Test
 
-9. Geliştirici ve Kullanıcı Dokümantasyonları
+9. [Geliştirici ve Kullanıcı Dokümantasyonları](GeliştiriciveKullanıcıDokümantasyonları.md)
 
