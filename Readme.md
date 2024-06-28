@@ -1,14 +1,12 @@
-
 # LADIES
 
-Proje Tanımı: LADIES , yenilikçi güzellik trendlerini kozmetik tutkunlarıyla buluşturuyor. LADIES isimli  e-ticaret sitemiz online alışveriş ile müşterilerimize hizmet vermektedir. Yenilikçi mağaza tasarımıyla, alışveriş deneyiminde devrim yaratarak LADIES'in mükemmel güzelliğin adresi olmasını sağladık. Seçkin markalar ve birçok çeşit ürünle benzersiz bir yelpazeye sahip LADIES, tüketicilerine; hem lüks hem de ulaşılabilir markalara ulaşma olanağı sunuyor. Müşterilerimiz, aradıkları ürünleri hızlı ve kolay bir şekilde bulabilirken, aynı zamanda satın alma süreçlerinde de sorunsuz bir deneyim yaşacaklar. Güzellik uzmanlarının rehberliğinde, güzellik tutkunlarına makyaj&bakım servisleri ve parfüm seçimi konusunda yardımcı olan LADIES, dolu dolu bir güzellik deneyimi yaşatıyor.
-
+Proje Tanımı: LADIES , yenilikçi güzellik trendlerini kozmetik tutkunlarıyla buluşturuyor. LADIES isimli e-ticaret sitemiz online alışveriş ile müşterilerimize hizmet vermektedir. Yenilikçi mağaza tasarımıyla, alışveriş deneyiminde devrim yaratarak LADIES'in mükemmel güzelliğin adresi olmasını sağladık. Seçkin markalar ve birçok çeşit ürünle benzersiz bir yelpazeye sahip LADIES, tüketicilerine; hem lüks hem de ulaşılabilir markalara ulaşma olanağı sunuyor. Müşterilerimiz, aradıkları ürünleri hızlı ve kolay bir şekilde bulabilirken, aynı zamanda satın alma süreçlerinde de sorunsuz bir deneyim yaşacaklar. Güzellik uzmanlarının rehberliğinde, güzellik tutkunlarına makyaj&bakım servisleri ve parfüm seçimi konusunda yardımcı olan LADIES, dolu dolu bir güzellik deneyimi yaşatıyor.
 
 Proje Kategorisi: E-Ticaret.
 
 Referans Uygulama: [Sephora](https://www.sephora.com.tr/)
 
-Uygulama Adresi: 
+Uygulama Adresi: [LADIES Sitesi Video Linki](https://www.youtube.com/watch?v=w-RVHPIO-6Y)
 
 Grup Adı: Melis ve Yusuf
 
@@ -31,4 +29,3 @@ Proje Ekibi: Melis Tunç, Yusuf Eren Karabulut
 8. Test
 
 9. [Geliştirici ve Kullanıcı Dokümantasyonları](GeliştiriciveKullanıcıDokümantasyonları.md)
-
