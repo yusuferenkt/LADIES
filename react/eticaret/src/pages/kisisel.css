@@ -1,0 +1,29 @@
+#personalInfoForm{
+    height: 830px;
+}
+
+#contactForm{
+    width: 720px;
+    border: 0px;
+    box-shadow: 0 0 0px;
+}
+
+#contactForm input, textarea {
+    width: 680px !important;
+}
+
+.xx-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 100% !important;
+    height: 50px !important;
+}
+
+.input-group{
+    margin-bottom: -10px;
+    padding-bottom: -10px;
+}

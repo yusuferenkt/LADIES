@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ladies REST API</title>
+    </head>
+    <body>
+        <h1>Ladies REST API Ana Sayfası</h1>
+        <hr/>
+        <p>Ladies REST API ana sayfasına hoşgeldiniz! Bu API aracılığıyla Ladies sitesinden belli özelliklere göre ürün çekme işlemlerini yapabilirsiniz.</p>
+        <ul>
+            <li><b><a href="/api/get">/get</a></b>: Sitede bulunan bütün ürünleri getirir</li>
+            <li><b><a href="/api/get/category=:category">/get/category</a></b>: Sitede bulunan belli kategorideki ürünleri getirir
+                <ul>
+                    <li>Kategori adı; Makyaj, Parfüm, Cilt Bakışı(typo), Vücüt ve Banyo, veya Saç olabilir</li>
+                </ul></li>
+            <li><b><a href="/api/get/brand=:brand">/get/brand</a></b>: Sitede bulunan belli markanın ürettiği ürünleri getirir</li>
+            <li><b><a href="/api/get/routes">/get/routes</a></b>: Sitede bulunan ürünlerin özel sayfalarının rotalarını döndürür</li>
+        </ul>
+    </body>
+</html>
