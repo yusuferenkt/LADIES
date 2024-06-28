@@ -14,7 +14,7 @@ Grup Adı: Melis ve Yusuf
 
 Proje Ekibi: Melis Tunç, Yusuf Eren Karabulut
 
-1. [Proje Planı](ProjePlani.md)
+1. [Proje Planı](ProjePlanı.md)
 
 2. [Gereksinim Analizi](GereksinimAnalizi.md)
 
